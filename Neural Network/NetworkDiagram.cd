@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArtificialNeuralNetwork.Neurons.InputNeuron">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Neurons\InputNeuron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Layers.Layer">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAAAAEAAAAAAAAAAAEIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layers\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Layers.InputLayer">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Layers\InputLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Layers.HiddenLayer">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Layers\HiddenLayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Neurons.Neuron">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Neurons\Neuron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Neurons.BiasNeuron">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Neurons\BiasNeuron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Neurons.HiddenNeuron">
+    <Position X="4.5" Y="2.75" Width="2.25" />
+    <InheritanceLine Type="ArtificialNeuralNetwork.Neurons.Neuron" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="2.055" />
+        <Point X="3.5" Y="2.43" />
+        <Point X="5.688" Y="2.43" />
+        <Point X="5.688" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAQQAAAEAAABAAAAEAAAAIAAAACAAAAA=</HashCode>
+      <FileName>Neurons\HiddenNeuron.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Neurons.Synapse">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAgAAgAAAA=</HashCode>
+      <FileName>Neurons\Synapse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.Exceptions.NetworkInputInvalidException">
+    <Position X="9.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAABAAABAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NetworkInputInvalidException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificalNeuralNetwork.Exceptions.NetworkOutputInvalidException">
+    <Position X="7" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAACAAAgAgAAIAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NetworkOutputInvalidException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.NetworkBuilder">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAAggAAAAAAAAAAAAAQAAEAAAAA=</HashCode>
+      <FileName>NetworkBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.BackPropagation">
+    <Position X="2.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAgAIAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BackPropagation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtificialNeuralNetwork.NeuralNetwork">
+    <Position X="12.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>cAAggIAAAQAAAIAAQgAIAAAAAgIIAIAEAIEABGAUAAI=</HashCode>
+      <FileName>NeuralNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
